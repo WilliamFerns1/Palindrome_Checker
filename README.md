@@ -2,7 +2,8 @@
 A simple Palindrome Checker made with HTML, CSS, and Javascript. 
 [![Palindrome Checker](https://img.shields.io/badge/Palindrome_Checker-purple)](https://palindrome-checker-seven.vercel.app/)
 ![Project Type](https://img.shields.io/badge/Project_Type:_Palindrome_Checker-orange)
-![HTML,CSS,JS](https://img.shields.io/badge/HTML-CSS-JS-blue)
+![HTML,CSS](https://img.shields.io/badge/HTML-CSS-blue)
+![Javascript](https://img.shields.io/badge/Javascript-blue)
 [![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-JavaScript_Algorithms_and_Data_Structures-red)](https://freecodecamp.com/learn)
 
 A simple Palindrome Checker, made with HTML, CSS and JavaScript. Feel free to check <a href="https://palindrome-checker-seven.vercel.app/" target="_blank">the project</a> out, and give feedback on what I can improve if you like .
