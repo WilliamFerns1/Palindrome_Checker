@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%; /* Set 1rem = 10px */
+}
+
+:root {
+  --bg: orangered;
+  --container: yellow; 
+  --emphasize-container: purple; 
+  --text: #fff;
+  --container-text: #000;
+  --primary: blue;
+  --secondary: yellow;
+  --secondary-text: #000;
+  --rounded-md: 5px;
+  --rounded-lg: 7.5px;
+  --bold: bold;
+  --bold-md: 500;
+  --text-sm: 10px;
+  --text-md: 15px;
+  --text-lg: 17.5px;
+  --gap-sm: 5px; 
+  --gap-md: 7.5px; 
+  --gap-lg: 10px; 
+  --gap-xl: 15px; 
+  --border-sm: 1px solid #000; 
+  --border-md: 3px solid #000; 
+  --border-lg: 5px solid #000; 
+  --pad-container-sm: 5px 7.5px;
+  --pad-container-md: 7.5px 1.25px;
+  --pad-container-lg: 10px 15px;
+  --pad-container-xl: 30px;
+  --line-height-md: 115%;
+}
+
+body {
+  color: var(--text);
+  height: 100vh;
+  font-family: sans-serif;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-lg);
+  padding: var(--pad-container-lg);
+  border-radius: var(--rounded-lg);
+}
+
+section, 
+.examples, 
+#palindrome-examples-list-container,
+.palindrome-button-input-container
+ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-sm);
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: var(--line-height-md);
+}
+
+h2 {
+  font-size: 2.5em;
+  line-height: var(--line-height-md);
+}
+
+p {
+  font-size: var(--text-md);
+  max-width: 75%;
+  font-weight: var(--bold-md);
+  vertical-align: middle;
+  line-height: var(--line-height-md);
+}
+
+input {
+  padding: var(--pad-container-sm);
+  border-radius: var(--rounded-md);
+  font-size: 2em;
+  font-weight: var(--bold);
+  border: var(--border-md);
+}
+
+.palindrome-checker {
+  gap: var(--gap-md);
+}
+
+.palindrome-button-input-container {
+  gap: var(--gap-md);
+  flex-direction: row;
+}
+
+.palindrome-checker input {
+  width: 60%;
+}
+
+.check-btn {
+  width: 30%;
+  padding: var(--pad-container-lg);
+}
+
+#result {
+  display: none;
+  background-color: var(--emphasize-container);
+  padding: var(--pad-container-lg);
+  border-radius: var(--rounded-lg);
+  font-size: var(--text-md);
+  max-width: unset;
+  font-weight: var(--bold);
+  width: 90%;
+}
+
+.palindrome-hint p {
+  background-color: var(--container);
+  color: var(--container-text);
+  padding: var(--pad-container-lg);
+  border-radius: var(--rounded-lg);
+  max-width: unset;
+  font-weight: var(--bold);
+  width: 90%;
+}
+
+.examples {
+  gap: var(--gap-xl);
+}
+
+#palindrome-examples-list-container {
+  gap: var(--gap-lg)
+}
+
+.palindrome-example {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-md);
+  width: 90%;
+}
+
+.palindrome-example p {
+  max-width: unset;
+  font-weight: var(--bold);
+}
+
+button {
+  padding: var(--pad-container-lg);
+  border-radius: var(--rounded-lg); 
+  color: var(--text);
+  border: none;
+  transition: .5s ease-in-out;
+}
+
+.button-primary {
+  background-color: var(--primary);
+}
+
+button p {
+  font-weight: var(--bold);
+  max-width: unset;
+  line-height: 100%;
+}
+
+.button-secondary {
+  background-color: var(--secondary);
+  color: black;
+}
+
+.button-small {
+  padding: var(--pad-container-sm);
+}
+
+.button-small p {
+  font-size: var(--text-sm);
+}
+
+@media(min-width: 512px) {
+  body {
+    /* background: linear-gradient(90deg, purple, darkblue, rgba(0, 0, 255, .8), rgba(0, 0, 255, .7)); */
+    background: linear-gradient(90deg,red, orangered, orange);
+  }
+  main {
+    padding: var(--pad-container-xl);
+    max-width: 600px;
+    background-color: var(--bg);
+    border: 5px solid white;
+  }
+}
