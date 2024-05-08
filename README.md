@@ -1,5 +1,6 @@
 # Palindrome_Checker
 A simple Palindrome Checker made with HTML, CSS, and Javascript. 
+
 [![Palindrome Checker](https://img.shields.io/badge/Palindrome_Checker-purple)](https://palindrome-checker-seven.vercel.app/)
 ![Project Type](https://img.shields.io/badge/Project_Type:_Palindrome_Checker-orange)
 ![HTML,CSS](https://img.shields.io/badge/HTML-CSS-blue)
