@@ -7,6 +7,10 @@ A simple Palindrome Checker made with HTML, CSS, and Javascript.
 ![Javascript](https://img.shields.io/badge/Javascript-blue)
 [![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-JavaScript_Algorithms_and_Data_Structures-red)](https://freecodecamp.com/learn)
 
+![Basic Palindrome Checker](https://github.com/WilliamFerns1/Palindrome_Checker/assets/141557971/9f99013d-4e36-4c70-9a6f-2f11140683b3)
+
+![image](https://github.com/WilliamFerns1/Palindrome_Checker/assets/141557971/3dfa4344-ee75-4f8c-8e48-ed0a24c0734d)
+
 A simple Palindrome Checker, made with HTML, CSS and JavaScript. Feel free to check <a href="https://palindrome-checker-seven.vercel.app/" target="_blank">the project</a> out, and give feedback on what I can improve if you like .
 
 ## Technologies:
@@ -18,10 +22,10 @@ A simple Palindrome Checker, made with HTML, CSS and JavaScript. Feel free to ch
 According to Google: "A palindrome is a word, sentence, verse, or even number that reads the same backward or forward."
 
 ## Project Motive:
-For practising what I've learnt from the first few practice course projects for the freeCodeCamp JavaScript course, I had the opportunity to build a certification project on my own, a Palidrome Checker.
+The reason I made this project is because I had the opportunity to apply what I've learnt by following feeCodeCamp's Curriculum. I built this project on my own, as a certification project for <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/" target="_blank">JavaScript Algorithms and Data Structures Course</a> on freeCodeCamp.
 
 ## Contributions:
-If you really like the portfolio, and you see something you can improve, feel free to **fork** this repo, make your changes, and submit a pull request. If you see any spelling mistake on this markdown file, or on the website, please make an **issue**, so that I can fix it. Thanks. Recommendations on how I can improve it would be great.
+If you really like the project, and you see something you can improve, feel free to **fork** this repo, make your changes, and submit a pull request. If you see any spelling mistake on this markdown file, or on the website, please make an **issue**, so that I can fix it. Thanks. Recommendations on how I can improve it would be great.
 
 ## What I learnt from making this project:
 1. HTML
